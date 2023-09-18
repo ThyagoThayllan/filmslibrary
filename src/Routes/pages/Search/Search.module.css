@@ -24,3 +24,14 @@
 .queryText {
     color: var(--GOLD1);
 }
+
+@media (max-width: 820px) {
+    .title {
+        font-size: 1.25rem;
+    }
+
+    .moviesContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
