@@ -1,0 +1,48 @@
+:root {
+  --GRAY-100: #F2F2F2;
+  --GRAY-200: #D9D9D9;
+  --GRAY-300: #808080;
+  --GRAY-400: #333333;
+  --GRAY-500: #262626;
+  --GRAY-600: #1A1A1A;
+  --GRAY-700: #0D0D0D;
+
+  --GOLD1: #DAA520;
+  --GOLD2: #CD9A0E;
+  --GOLD3: #c18f00;
+}
+
+:focus {
+  outline: 1px solid #DAA520;
+  border-radius: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: var(--GRAY-700);
+  color: var(--GRAY-100);
+}
+
+body, button, textarea, select, input {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #CD9A0E;
+}
+a:hover {
+  color: #DAA520;
+}
+
+@media (max-width: 820px) {
+  body, button, textarea, select, input {
+    font-size: 0.875rem;
+  }
+}

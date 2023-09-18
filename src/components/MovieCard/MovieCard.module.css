@@ -1,0 +1,55 @@
+.movieCard {
+    max-width: 350px;
+    width: 100%;
+    background: black;
+    border: 1px solid var(--GOLD2);
+    border-radius: 10px;
+    padding: 0.5rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.movieCard h2 {
+    font-size: 1.25rem;
+}
+
+.movieCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.movieCard p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.movieCard p svg {
+    color: var(--GOLD2);
+}
+
+.details {
+    background: var(--GOLD1);
+    border: 1px solid var(--GOLD2);
+    border-radius: 10px;
+    color: var(--GRAY-700);
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    transition: all 0.2s;
+    width: 100%;
+}
+.details:hover {
+    color: var(--GOLD1);
+    background: black;
+    cursor: pointer;
+}
+
+@media (max-width: 820px) {
+    .movieCard h2 {
+        font-size: 1rem;
+    }
+}
