@@ -51,7 +51,7 @@ export const Movie = () => {
             <MovieCard movie={movie} showLink={false} />
             <div className={styles.movieData}>
               <h2>{movie.title}</h2>
-              <p className={styles.tagline}><b><i>- {movie.tagline}</i></b></p>
+              {movie.tagline && <p className={styles.tagline}><b><i>- {movie.tagline}</i></b></p>}
               <div className={styles.statsInfo}>
                 <div className={styles.info}>
                   <h3>
